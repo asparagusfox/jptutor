@@ -35,6 +35,13 @@ label {
 }
 
 /*
+ * -- MY STYLES --
+ */
+ .margin {
+    margin: 20px;
+ }
+
+/*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
  */
