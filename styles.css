@@ -174,8 +174,8 @@ a.pure-button-primary {
     font-size: 20px;
     font-weight: bold;
     color: #76e8a1;
-    border: 3px solid #76e8a1;
-    padding: 1em 1.6em;
+    /* border: 3px solid #76e8a1; */
+    padding: 1em 1.6em 0.5em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
