@@ -161,20 +161,20 @@ a.pure-button-primary {
 .splash {
     /* absolute center .splash within .splash-container */
     width: 80%;
-    height: 50%;
+    /* height: 50%; */
     margin: auto;
     position: absolute;
     top: 100px; left: 0; bottom: 0; right: 0;
-    text-align: center;
+    text-align: left;
 }
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
     color: #76e8a1;
     /* border: 3px solid #76e8a1; */
-    padding: 1em 1.6em 0.5em;
+    /* padding: 1em 1.6em 0.5em; */
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
