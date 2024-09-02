@@ -61,7 +61,12 @@ label {
     text-align: center;
 }
 
-
+/* Adjust text for smaller screens */
+@media (max-width: 35.5em) {
+	.bigger {
+        font-size: 18px;
+	}
+  }
 
 /*
  * -- PURE FORM STYLES --
@@ -109,9 +114,11 @@ a.pure-button-primary {
     padding: 0.5em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+
 }
 .home-menu {
     background: #2d3e50;
+
 }
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -138,6 +145,16 @@ a.pure-button-primary {
     background: none;
     border: none;
     color: #AECFE5;
+}
+
+@media (min-width: 48em) {
+
+    .home-menu {
+
+        border: 2px;
+        border-color: rgb(247, 247, 247);
+    }
+
 }
 
 
