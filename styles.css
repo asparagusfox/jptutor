@@ -17,6 +17,7 @@ body {
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 13px;
+    font-family: "Kanit";
 }
 
 h1,
@@ -192,22 +193,22 @@ a.pure-button-primary {
     color: #e40707;
     /* border: 3px solid #76e8a1; */
     /* padding: 1em 1.6em 0.5em; */
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 30px;
+    background-color: rgba(255, 255, 255);
+    padding: 20px;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+    line-height: 1;
 }
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-    color: #e40707;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 30px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
     letter-spacing: 0.05em;
-    opacity: 0.8;
     font-size: x-large;
-    font-weight: bolder;
+    line-height: 1.5;
 }
 
 /*
