@@ -195,8 +195,8 @@ a.pure-button-primary {
     /* padding: 1em 1.6em 0.5em; */
     background-color: rgba(255, 255, 255);
     padding: 20px;
-    font-weight: 100;
-    border-radius: 5px;
+    font-weight: 500;
+    border-radius: 10px;
     line-height: 1em;
     line-height: 1;
 }
@@ -204,11 +204,12 @@ a.pure-button-primary {
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     color: #ffffff;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(156, 145, 255);
     padding: 20px;
     letter-spacing: 0.05em;
     font-size: x-large;
     line-height: 1.5;
+    border-radius: 10px;
 }
 
 /*
