@@ -117,7 +117,7 @@ a.pure-button-primary {
 
 }
 .home-menu {
-    background: #2d3e50;
+    background: #f58ee8;
 
 }
 .pure-menu.pure-menu-fixed {
@@ -138,7 +138,7 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: #6FBEF3;
+    color: #0c5e94;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
@@ -224,6 +224,7 @@ a.pure-button-primary {
     background: white;
 
 }
+
 
 /* We want to give the content area some more padding */
 .content {
