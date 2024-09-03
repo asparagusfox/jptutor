@@ -117,7 +117,7 @@ a.pure-button-primary {
 
 }
 .home-menu {
-    background: #2d3e50;
+    background: #f58ee8;
 
 }
 .pure-menu.pure-menu-fixed {
@@ -138,7 +138,7 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: #6FBEF3;
+    color: #0c5e94;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
@@ -164,7 +164,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: url("cropped-Sakura-2-1-1.gif");
+    background: url("japan-splash.jpg");
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -189,9 +189,11 @@ a.pure-button-primary {
 .splash-head {
     font-size: 50px;
     font-weight: bold;
-    color: #76e8a1;
+    color: #e40707;
     /* border: 3px solid #76e8a1; */
     /* padding: 1em 1.6em 0.5em; */
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
@@ -199,10 +201,13 @@ a.pure-button-primary {
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-    color: #ffffff;
+    color: #e40707;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
     letter-spacing: 0.05em;
     opacity: 0.8;
     font-size: x-large;
+    font-weight: bolder;
 }
 
 /*
@@ -219,6 +224,7 @@ a.pure-button-primary {
     background: white;
 
 }
+
 
 /* We want to give the content area some more padding */
 .content {
@@ -248,7 +254,7 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
+    background: #feca0e;
     color: #aaa;
 }
 
