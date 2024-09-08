@@ -3,10 +3,13 @@
  * This stylesheet is a modified version of a purecss (https://purecss.io/) layout under the Zlib licence (http://www.zlib.net/zlib_license.html)
  */
 
+
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    /* outline for debugging */
     /* outline: 1px solid red;
 	outline-offset: -1px; */
 }
@@ -123,13 +126,21 @@ a.pure-button-primary {
     padding: 0.5em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background: #a1d5ef;
 
 }
-.home-menu {
-    background: #f58ee8;
 
+.home-menu a {
+    color: #0c5e94;
 }
-.pure-menu.pure-menu-fixed {
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #010101;
+}
+
+.pure-menu .pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
@@ -143,27 +154,15 @@ a.pure-button-primary {
 }
 
 .home-menu .pure-menu-selected a {
-    color: white;
+    /* color: white; */
 }
 
-.home-menu a {
-    color: #0c5e94;
-}
-.home-menu li a:hover,
-.home-menu li a:focus {
-    background: none;
-    border: none;
-    color: #AECFE5;
-}
 
 @media (min-width: 48em) {
-
     .home-menu {
-
         border: 2px;
         border-color: rgb(247, 247, 247);
     }
-
 }
 
 
@@ -173,7 +172,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: url("bonsai.jpg");
+    background: url("sakura.jpg");
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -198,7 +197,7 @@ a.pure-button-primary {
 .splash-head {
     font-size: 50px;
     font-weight: bold;
-    color: #e40707;
+    color: #374A5D;
     /* border: 3px solid #76e8a1; */
     /* padding: 1em 1.6em 0.5em; */
     background-color: rgba(255, 255, 255);
@@ -211,14 +210,21 @@ a.pure-button-primary {
 
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
-    color: #ffffff;
-    background-color: rgb(156, 145, 255);
+    color: #374A5D;
+    background-color: #a1d5ef;
     padding: 20px;
     letter-spacing: 0.05em;
     font-size: x-large;
     line-height: 1.5;
     border-radius: 10px;
 }
+
+.splash-links {
+    a:link, a:visited {
+      text-decoration: none;
+      color: #374A5D;
+    }
+  }
 
 /*
  * -- CONTENT STYLES --
@@ -244,7 +250,7 @@ a.pure-button-primary {
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
 }
@@ -264,8 +270,9 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #feca0e;
-    color: #aaa;
+    background: #ffffff;
+    color: #6e6363;
+    font-size: 20px;
 }
 
 /* This is the class used for the footer */
@@ -274,6 +281,23 @@ a.pure-button-primary {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* For mobile width */
+@media (max-width: 47.999em) {
+
+	.custom-menu-3 {
+		text-align: left;
+	}
+
+	.custom-toggle {
+		display: block;
+	}
+
+    .content-head {
+        text-align: center;
+    }
+
 }
 
 /*
@@ -400,15 +424,5 @@ a.pure-button-primary {
 	transform: rotate(-45deg);
 }
 
-@media (max-width: 47.999em) {
 
-	.custom-menu-3 {
-		text-align: left;
-	}
-
-	.custom-toggle {
-		display: block;
-	}
-
-}
 
