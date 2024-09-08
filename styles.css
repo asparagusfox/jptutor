@@ -195,12 +195,12 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
-    color: #374A5D;
+    color: #277b17;
     /* border: 3px solid #76e8a1; */
     /* padding: 1em 1.6em 0.5em; */
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     font-weight: 500;
     border-radius: 10px;
@@ -211,7 +211,7 @@ a.pure-button-primary {
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     color: #374A5D;
-    background-color: #a1d5ef;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     letter-spacing: 0.05em;
     font-size: x-large;
