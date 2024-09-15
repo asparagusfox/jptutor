@@ -213,6 +213,7 @@ a.pure-button-primary {
     letter-spacing: 0.05em;
     font-size: x-large;
     line-height: 1.5;
+    text-shadow: 2px 2px #49fff0;
 }
 
 .splash-links {
@@ -349,7 +350,7 @@ a.pure-button-primary {
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
-        font-size: 300%;
+        font-size: 500%;
     }
 }
 
