@@ -49,12 +49,12 @@ label {
 /*
  * -- MY STYLES --
  */
- .margin {
-    margin-top:0%;
+.margin {
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: 10%;
     margin-right: 10%;
- }
+}
 
 /*
  * -- LAYOUT STYLES --
@@ -66,7 +66,7 @@ label {
 
 .l-box-lrg {
     padding: 2em;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .is-center {
@@ -75,10 +75,10 @@ label {
 
 /* Adjust text for smaller screens */
 @media (max-width: 35.5em) {
-	.bigger {
+    .bigger {
         font-size: 18px;
-	}
-  }
+    }
+}
 
 /*
  * -- PURE FORM STYLES --
@@ -125,7 +125,7 @@ a.pure-button-primary {
 .home-menu {
     padding: 0.5em;
     text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
     background: #a1d5ef;
 
 }
@@ -133,6 +133,7 @@ a.pure-button-primary {
 .home-menu a {
     color: #0c5e94;
 }
+
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
@@ -189,7 +190,10 @@ a.pure-button-primary {
     /* height: 50%; */
     margin: auto;
     position: absolute;
-    top: 100px; left: 0; bottom: 0; right: 0;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
     text-align: left;
 }
 
@@ -217,11 +221,13 @@ a.pure-button-primary {
 }
 
 .splash-links {
-    a:link, a:visited {
-      text-decoration: none;
-      color: #374A5D;
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+        color: #374A5D;
     }
-  }
+}
 
 /*
  * -- CONTENT STYLES --
@@ -261,9 +267,10 @@ a.pure-button-primary {
 .content-subhead {
     /* color: #1f8dd6; */
 }
-    .content-subhead i {
-        margin-right: 7px;
-    }
+
+.content-subhead i {
+    margin-right: 7px;
+}
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
@@ -283,13 +290,13 @@ a.pure-button-primary {
 /* For mobile width */
 @media (max-width: 47.999em) {
 
-	.custom-menu-3 {
-		text-align: left;
-	}
+    .custom-menu-3 {
+        text-align: left;
+    }
 
-	.custom-toggle {
-		display: block;
-	}
+    .custom-toggle {
+        display: block;
+    }
 
     .content-head {
         text-align: center;
@@ -314,12 +321,13 @@ a.pure-button-primary {
     .home-menu {
         text-align: left;
     }
-        .home-menu ul {
-            float: right;
-        }
+
+    .home-menu ul {
+        float: right;
+    }
 
     /* We increase the height of the splash-container */
-/*    .splash-container {
+    /*    .splash-container {
         height: 500px;
     }*/
 
@@ -348,6 +356,7 @@ a.pure-button-primary {
  * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
+
     /* We increase the header font size even more */
     .splash-head {
         font-size: 500%;
@@ -357,69 +366,66 @@ a.pure-button-primary {
 /* For new menu */
 
 .custom-wrapper {
-	margin-bottom: 1em;
-	-webkit-font-smoothing: antialiased;
-	height: 3em;
-	overflow: hidden;
-	-webkit-transition: height 0.5s;
-	-moz-transition: height 0.5s;
-	-ms-transition: height 0.5s;
-	transition: height 0.5s;
+    margin-bottom: 1em;
+    -webkit-font-smoothing: antialiased;
+    height: 3em;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
 }
 
 .custom-wrapper.open {
-	height: 15.5em;
+    height: 15.5em;
 }
 
 .custom-menu-3 {
-	text-align: right;
-	padding-right: 30px;
+    text-align: right;
+    padding-right: 30px;
 }
 
 .custom-toggle {
-	width: 34px;
-	height: 34px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: none;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
 }
 
 .custom-toggle .bar {
-	background-color: black;
-	display: block;
-	width: 30px;
-	height: 3px;
-	border-radius: 100px;
-	position: absolute;
-	top: 20px;
-	right: 7px;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	transition: all 0.5s;
+    background-color: black;
+    display: block;
+    width: 30px;
+    height: 3px;
+    border-radius: 100px;
+    position: absolute;
+    top: 20px;
+    right: 7px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .custom-toggle .bar:first-child {
-	-webkit-transform: translateY(-6px);
-	-moz-transform: translateY(-6px);
-	-ms-transform: translateY(-6px);
-	transform: translateY(-6px);
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
 }
 
 .custom-toggle.x .bar {
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .custom-toggle.x .bar:first-child {
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
-
-
-
