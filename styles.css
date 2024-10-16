@@ -36,6 +36,11 @@ label {
     color: #34495e;
 }
 
+th, td {
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
