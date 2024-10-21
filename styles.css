@@ -36,6 +36,12 @@ label {
     color: #34495e;
 }
 
+h2,
+h4 {
+    margin-bottom: -0.1em;
+    margin-top: 0.3em;
+}
+
 th, td {
     padding-left: 15px;
     padding-bottom: 15px;
